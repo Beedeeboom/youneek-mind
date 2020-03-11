@@ -9,9 +9,9 @@ class JourneyStops
 
     end
 
-    def new_stop
-        # puts "Our next stop is #{@stop}"
-        puts @stop.colorize(:green)
+    def new_stop     
+        # puts "#{@stop}"
+        puts @stop.colorize(:green)  
     end
 
 end
@@ -27,3 +27,20 @@ stop7 = JourneyStops.new("No Judgements Station!")
 stop8 = JourneyStops.new("Kind Land, our final destination!")
 
 # puts stop1.new_stop
+
+
+# class JourneyStops
+
+#     attr_reader :stop  
+
+#     def initialize(stop)
+#         @stop = stop #this creates an instance variable called stop, and copy's the value from the name parameter into it.
+
+#     end
+
+#     def new_stop
+#         # puts "Our next stop is #{@stop}"
+#         puts @stop.colorize(:green)
+#     end
+
+# end

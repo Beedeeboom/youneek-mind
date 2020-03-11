@@ -22,15 +22,19 @@ puts a.asciify('YouNeek Mind').colorize(:blue)
 
 def you_neek_mind   
 
+    youneek_life = 0
+
+    #Journey stops from require './Classes/journey_stops' 
     stop1 = JourneyStops.new("Yay! Let's go on an adventure together! Our first stop is Sad Town!")
-    stop2 = JourneyStops.new("Yay! Let's keep going! Our next stop is Care Station!")
-    stop3 = JourneyStops.new("Yay! Let's keep going! Our next stop is Lonely Village!")
-    stop4 = JourneyStops.new("Yay! Let's keep going! Our next stop is Friend Station!")
-    stop5 = JourneyStops.new("Yay! Let's keep going! Our next stop is Feeling Road!")
-    stop6 = JourneyStops.new("Yay! Let's keep going! Our next stop is Listen Parade!")
-    stop7 = JourneyStops.new("Yay! Let's keep going! Our next stop is No Judgements Station!")
-    stop8 = JourneyStops.new("Yay! Let's keep going! Our next stop is our final destination, Kind Land!")
+    stop2 = JourneyStops.new("Let's keep going! Our next stop is Care Station!")
+    stop3 = JourneyStops.new("Let's keep going! Our next stop is Lonely Village!")
+    stop4 = JourneyStops.new("Let's keep going! Our next stop is Friend Station!")
+    stop5 = JourneyStops.new("Let's keep going! Our next stop is Feeling Road!")
+    stop6 = JourneyStops.new("Let's keep going! Our next stop is Listen Parade!")
+    stop7 = JourneyStops.new("Let's keep going! Our next stop is No Judgements Station!")
+    stop8 = JourneyStops.new("Let's keep going! Our next stop is our final destination, Kind Land!")
     
+    #Introduction to game
     puts "H E L L O!   I' M   Y O U N E E K   T H E   R O B O T\n".colorize(:green)
     puts "What's your name?\n".colorize(:green)
     name = gets.chomp
@@ -39,44 +43,24 @@ def you_neek_mind
     puts "\nI really need your help #{name.capitalize}, my friends are waiting for me in Kind Land but I have no battery life to travel there\n".colorize(:green)
     puts "\nWould you like to help me?\n".colorize(:blue)
         
-    
-    def option_yes_no  
-        puts "Select " + " yes ".colorize(:black).colorize(:background => :white) + " or " + " no ".colorize(:black).colorize(:background => :white)  
-    end 
+    #asks the user if they want to keep playing or not
+    puts stop1.new_stop
 
-option_yes_no
-
-    response = gets.chomp
-    system('clear')
-    if response == "yes"
-        puts "#{puts stop1.new_stop}"
-    else
-        puts "\nThat's okay we can play another day :)\n".colorize(:green)
-        puts "Would you like to keep playing?\n".colorize(:blue)
-        option_yes_no
-        play_again = gets.chomp
-        if play_again == "yes"  
-            puts "\nAwesome lets keep playing!".colorize(:green)
-        else exit!
-        end
-    end
 
 def going_on_a_journey
 
     puts "Can you please help me to gain a new life bar?\n".colorize(:blue)
 
-    option_yes_no
-
+    puts "Select " + " yes ".colorize(:black).colorize(:background => :white) + " or " + " no ".colorize(:black).colorize(:background => :white)
     response = gets.chomp
-    system('clear')
-
+    system ('clear')
     if response == "yes"
-     
-        puts "You're awesome! Read my little story and pick the correct answer to recharge my battery\n".colorize(:green)
+        puts "You're awesome! Read my little story and pick the correct answer to recharge my battery:\n".colorize(:green)
     else 
         puts "That's okay we can play another day :)\n".colorize(:green)
         puts "Would you like to play again?\n".colorize(:blue)
-        option_yes_no
+        puts "Select " + " yes ".colorize(:black).colorize(:background => :white) + " or " + " no ".colorize(:black).colorize(:background => :white)
+        response = gets.chomp
         # puts "Select" + " yes or no (to exit game)"
         play_again = gets.chomp
         if play_again == "yes"  
@@ -88,7 +72,7 @@ def going_on_a_journey
 
 end
 
-puts going_on_a_journey
+going_on_a_journey
 
 user_options = [1,2]
 
@@ -98,6 +82,7 @@ def player_input #find a way to reuse code with arrays for other case scenarios
         when "1"
           puts "Try again"
         when "2"
+            system ('clear')
             puts "You're an awesome friend!"
             break
         else
@@ -115,10 +100,12 @@ def sad_town_story
     puts "1. Ignore Lucy and keep playing with your friends".colorize(:magenta)
     puts "2. Go to Lucy and ask her if she is okay. Give Lucy a pat on the shoulder".colorize(:magenta)
     puts
+    puts "Select 1 or 2".colorize(:yellow)
     player_input
 end
 
 puts sad_town_story
+puts stop2.new_stop
 
 def care_station_story
     #Second stop Care Station - Ask a friend, who just fell and hurt themselves, if you can help them and show them you care.
@@ -129,10 +116,12 @@ def care_station_story
     puts "1. Keep playing basketball".colorize(:magenta)
     puts "2. Help Elmo to get back up and ask if he is okay".colorize(:magenta)
     puts
+    puts "Select 1 or 2".colorize(:yellow)
     player_input
 end
 
 puts care_station_story
+puts stop3.new_stop
 
 def lonely_village_story
     #Third stop Lonely Village - Ask a friend if they want to play with you if they look lonely.
@@ -143,10 +132,12 @@ def lonely_village_story
     puts "1. Stay at your desk and keep reading your book".colorize(:magenta)
     puts "2. Ask Tom if you can sit with him and read your book together".colorize(:magenta)
     puts
+    puts "Select 1 or 2".colorize(:yellow)
     player_input
 end
 
 puts lonely_village_story
+puts stop4.new_stop
 
 def friend_street_story
     #Fourth stop Friend Street - You see someone by themselves in the playground, ask them if they want to play with you.
@@ -157,10 +148,12 @@ def friend_street_story
     puts "1. Keep playing with your friends".colorize(:magenta)
     puts "2. Ask Shelby if she would like to be your friend and ask if you can play with her".colorize(:magenta)
     puts
+    puts "Select 1 or 2".colorize(:yellow)
     player_input
 end
 
 puts friend_street_story
+puts stop5.new_stop
 
 def feelings_road_story
     #Fifth stop Feelings Road. - Show you understand how someone feels by the way they are acting (crying, angry, upset).
@@ -171,24 +164,28 @@ def feelings_road_story
     puts "1. Nelly is silly".colorize(:magenta)
     puts "2. Nelly is upset because she can't read the big words. You tell Nelly not to worry, you can't read all the words either".colorize(:magenta)
     puts
+    puts "Select 1 or 2".colorize(:yellow)
     player_input
 end
 
 puts feelings_road_story
+puts stop6.new_stop
 
 def listen_parade_story
     #Sixth stop Listen Parade - A friend tells you about their upcoming holidays, show them you are interested in their story.
     puts "Your best friend Elmo is very excited today, he is going on a holiday to Japan in a few days and tells you how excited he is".colorize(:magenta)
     puts
-    puts "Should you:".colorize(:magenta)
+    puts "  Should you:".colorize(:magenta)
     puts
-    puts "1. Ignore Elmo because you're not going to Japan with him".colorize(:magenta)
-    puts "2. Show Elmo you are excited for him and give him a high five".colorize(:magenta)
+    puts "  1. Ignore Elmo because you're not going to Japan with him\n".colorize(:magenta)
+    puts "  2. Show Elmo you are excited for him and give him a high five".colorize(:magenta)
     puts
+    puts "Select 1 or 2".colorize(:yellow)
     player_input
 end
 
 puts listen_parade_story
+puts stop7.new_stop
 
 def no_judgement_story
     #Seventh stop No Judgement Station - Your friend has a red shirt but you prefer the colour blue, tell them that their shirt looks cool on them.
@@ -199,10 +196,12 @@ def no_judgement_story
     puts "1. Tell Joey not to wear red, your favourite colour is blue".colorize(:magenta)
     puts "2. Tell Joey his shirt looks cool on him. Tell Joey you'll be wearing your blue shirt".colorize(:magenta)
     puts
+    puts "Select 1 or 2".colorize(:yellow)
     player_input
 end
 
 puts no_judgement_story
+puts stop8.new_stop
 
 def kind_land_story
     #Final stop Kind Land - Youneek meets all his robot friends and tells them about his journey.
