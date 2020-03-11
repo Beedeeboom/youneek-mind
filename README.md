@@ -50,13 +50,34 @@ https://github.com/Beedeeboom/youneek-mind.git
 
     Consult with your educator to check your features are sufficient .
 
+* YOUNEEK MIND FEATURES:
+
+    - Implemented features:
+
+        Game accepts user input in the form of string, allowing the user to enter their name which is inserted within a method and re-used througout the game to give the user a sense of belonging.
+
+        Game produces printed output in the form of a string and uses loops and conditonal control structures, guiding the user on how to progress through the game.
+        The user input is run through if/else statements, case statements, loop do until the user selects the correct answer to progress to the next level.
+
+        Game produces text in various colours using the Colorize Gem to ensure the user can easily differentiate the different sections such as greeting, questions, case scenarios.
+
+        Game allows the user to continue the adventure at every stop or to stop playing.
+
+        Game is able to handle errors and advise the user when their input is invalid and prompte the user to try again using an acceptable input (example "Invalid input, please select 1 or 2")
+
+        Game uses variables such as "Youneek life bars" which is equal to zero at the start of the game and value is added to this variable as the game progresses.
+
+        Game uses the ARTII Gem for the game title "Youneek Mind" displayed when the game is actioned.
+
+
 ### R7 - USER INTERACTION & EXPERIENCE:
 
-    Develop an outline of the user interaction and experience for the application.
-    Your outline must include:
-    - how the user will find out how to interact with / use each feature
-    - how the user will interact with / use each feature
-    - how errors will be handled by the application and displayed to the user
+* YOUNEEK MIND USER INTERACTION & EXPERIENCE:
+    
+    Youneek the robot introduces the user to the game and explains how the user can take him on an adventure to Kind Land. The user is first prompted to enter their name which is stored and re-used throughout the game to give the user a sense of belonging to the story. Througout the journey the user is presentated with several short stories of case scenarios and prompted to make a choice between two answers for each case scenario (Taking into consideration the age of the target audience, the choice of answers is limited to two answers per case scenario, this will enable the user to better retain the correct answer and apply these to everyday life). As the game progresses the user is prompted to either continue helping Youneek on his adventure to Kind Land and moving to the next stop by selecting "yes" or selecting "no" if they no longer wish to play. Once the user has reached the final destination he is given a badge of "Awesomeness" and is prompted to either replay the game or exit the game.
+
+    Invalid inputs will be handled with a friendly error message prompting the user to enter the correct value.
+
 
 ### R8 - CONTROL FLOW OF THE APPLICATION:
 
@@ -66,25 +87,18 @@ https://github.com/Beedeeboom/youneek-mind.git
 
 ### R9 - IMPLEMENTATION PLAN:
 
-    Develop an implementation plan which:
-    - outlines how each feature will be implemented and a checklist of tasks for each feature
-    - prioritise the implementation of different features, or checklist items within a feature
-    - provide a deadline, duration or other time indicator for each feature or checklist/checklist-item
+* TRELLO BOARD - YOUNEEK MIND  
 
-    Utilise a suitable project management platform to track this implementation plan
-
-    > Your checklists for each feature should have at least 5 items
-
-* Trello Board
+    A Trello board was created to prioritise the implemenation of different freatures, with checklist items, and deadlines.
 
     To ensure all features are implented within the application and tasks are prioritized to meet submission deadlines an implementation plan was established using the Trello software. Trello enables the user to project manage by creating a Trello board which lists all tasks that need to be completed within a certain timeframe to meet submission deadlines. Staff members can also be allocated to each task.  
 
-[Link to Trello Board](https://trello.com/b/RUOfqeQb/youneekmind)
+    - Initial Youneek Mind Trello board created Tuesday, 10th March 2020
+    - Updated Trello board Wednesday, 11th March 2020
+
+[Link to Trello board](https://trello.com/b/RUOfqeQb/youneekmind)
 
 https://trello.com/b/RUOfqeQb/youneekmind
-
-Screenshot of initial Trello Board (Created Tuesday, 10th March 2020)
-
 
 
 ### R10 - HOW TO INSTALL & USE THE APPLICATION:
@@ -95,3 +109,12 @@ Screenshot of initial Trello Board (Created Tuesday, 10th March 2020)
     - steps to install the application
     - any dependencies required by the application to operate
     - any system/hardware requirements
+
+* List of 
+        
+* List of Gems used:
+
+    Colorize - gem "colorize", "~> 0.8.1"
+
+    Artii - gem "artii", "~> 2.1"
+    
