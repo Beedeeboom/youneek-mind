@@ -108,17 +108,23 @@ https://trello.com/b/RUOfqeQb/youneekmind
 
 2. From your Command Line enter the following remote repository into your local repository - "git@github.com:Beedeeboom/youneek-mind.git" - See below link to Git Cheat Sheet for help. 
 
-4. From your Command Line enter "bundle install" to ensure. This will install all of the gems in the Gemfile to your computer
+3. From your Command Line enter "bundle install". This will install all of the gems in the Gemfile to your computer and ensure all gems run successfully when using the application.
 
-3. From your Command Line, you can run the application by typing "ruby youneek_mind.rb"
+4. From your Command Line, you can run the application by typing "ruby YouNeek_Mind.rb"
+
+5. You can exit the application at anytime by clicking "Control + C" on your keyboard
 
 * LIST OF DEPENDENCIES:
         
     - Gems used:
 
-        1. Colorize - gem "colorize", "~> 0.8.1"
+        1. Colorize - gem "colorize", "~> 0.8.1" 
+
+        Colorize is used in the application to enable the user to see the text in different colours and easily differentiate the sections of the game (example, greeting, questions, case scenarios with multiple choice answers)
 
         2.  Artii - gem "artii", "~> 2.1"
+
+        Artii is used in the application for the display of game name when the application is opened
 
 * REMOTE GIT REPOSITORY:
 
