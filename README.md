@@ -11,6 +11,10 @@ https://www.neura.edu.au/develop-empathy-study-autism-spectrum-disorders/#:~:tex
 
 https://trello.com
 
+* [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+
+https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
+
 ### R4 - SOURCE CONTROL REPOSITORY
 * [GitHub repository](https://github.com/Beedeeboom/youneek-mind.git)
 
@@ -95,18 +99,32 @@ https://trello.com/b/RUOfqeQb/youneekmind
 
 ### R10 - HOW TO INSTALL & USE THE APPLICATION:
 
-        Design help documentation which includes a set of instructions which accurately describe how to use and install the application.
 
-    You must include:
-    - steps to install the application
-    - any dependencies required by the application to operate
-    - any system/hardware requirements
+* HOW TO INSTALL & USE THE APPLICATION:
 
-* List of 
+    To use Youneek_Mind you must install the following application and and dependencies, please follow the below steps:
+
+1. [Click here to install Ruby](https://www.ruby-lang.org/en/documentation/installation/) - Please ensure you install the 2.7.0 version or over.
+
+2. From your Command Line enter the following remote repository into your local repository - "git@github.com:Beedeeboom/youneek-mind.git" - See below link to Git Cheat Sheet for help. 
+
+4. From your Command Line enter "bundle install" to ensure. This will install all of the gems in the Gemfile to your computer
+
+3. From your Command Line, you can run the application by typing "ruby youneek_mind.rb"
+
+* LIST OF DEPENDENCIES:
         
-* List of Gems used:
+    - Gems used:
 
-    Colorize - gem "colorize", "~> 0.8.1"
+        1. Colorize - gem "colorize", "~> 0.8.1"
 
-    Artii - gem "artii", "~> 2.1"
+        2.  Artii - gem "artii", "~> 2.1"
+
+* REMOTE GIT REPOSITORY:
+
+     [Click here to see Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+
+* SYSTEM/HARDWARE REQUIREMENTS:
+
+    Macbook Pro - MacOS Catalina version 10.15.3 or over
     
