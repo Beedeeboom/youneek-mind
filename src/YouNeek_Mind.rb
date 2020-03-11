@@ -13,7 +13,7 @@
 require "Colorize"
 require "Artii"
 
-
+system ('clear')
 a = Artii::Base.new 
 a.asciify('YouNeek Mind')
 
@@ -114,8 +114,8 @@ def sad_town_story
     puts
     puts "Should you:".colorize(:magenta)
     puts
-    puts "1. Ignore Lucy and keep playing with your friends?".colorize(:magenta)
-    puts "2. Go to Lucy and ask her if she is okay. Give Lucy a pat on the shoulder?".colorize(:magenta)
+    puts "1. Ignore Lucy and keep playing with your friends".colorize(:magenta)
+    puts "2. Go to Lucy and ask her if she is okay. Give Lucy a pat on the shoulder".colorize(:magenta)
     puts
     player_input
 end
@@ -123,18 +123,95 @@ end
 puts sad_town_story
 
 def care_station_story
-    #Ask a friend, who just fell and hurt themselves, if you can help them and show them you care.
-    puts "It's playtime at school. You see your friend Lucy is crying in the playground, you're not sure what to do!".colorize(:magenta)
+    #Second stop Care Station - Ask a friend, who just fell and hurt themselves, if you can help them and show them you care.
+    puts "You're at the park playing basketball with your friend Elmo. Elmo falls and hurts himself, you're not sure what to do!".colorize(:magenta)
     puts
     puts "Should you:".colorize(:magenta)
     puts
-    puts "1. Ignore Lucy and keep playing with your friends?".colorize(:magenta)
-    puts "2. Go to Lucy and ask her if she is okay?".colorize(:magenta)
+    puts "1. Keep playing basketball".colorize(:magenta)
+    puts "2. Help Elmo to get back up and ask if he is okay".colorize(:magenta)
     puts
     player_input
 end
 
-puts sad_town_story
+puts care_station_story
+
+def lonely_village_story
+    #Third stop Lonely Village - Ask a friend if they want to play with you if they look lonely.
+    puts "In class you see your class mate Tom sitting by himself, Tom looks lonely".colorize(:magenta)
+    puts
+    puts "Should you:".colorize(:magenta)
+    puts
+    puts "1. Stay at your desk and keep reading your book".colorize(:magenta)
+    puts "2. Ask Tom if you can sit with him and read your book together".colorize(:magenta)
+    puts
+    player_input
+end
+
+puts lonely_village_story
+
+def friend_street_story
+    #Fourth stop Friend Street - You see someone by themselves in the playground, ask them if they want to play with you.
+    puts "It's play time, you see your class mate Shelby is playing with her new ball but she has no friends to play with".colorize(:magenta)
+    puts
+    puts "Should you:".colorize(:magenta)
+    puts
+    puts "1. Keep playing with your friends".colorize(:magenta)
+    puts "2. Ask Shelby if she would like to be your friend and ask if you can play with her".colorize(:magenta)
+    puts
+    player_input
+end
+
+puts friend_street_story
+
+def feelings_road_story
+    #Fifth stop Feelings Road. - Show you understand how someone feels by the way they are acting (crying, angry, upset).
+    puts "It's class time. Your class mate Nelly can't read the board and starts crying".colorize(:magenta)
+    puts
+    puts "Do you think:".colorize(:magenta)
+    puts
+    puts "1. Nelly is silly".colorize(:magenta)
+    puts "2. Nelly is upset because she can't read the big words. You tell Nelly not to worry, you can't read all the words either".colorize(:magenta)
+    puts
+    player_input
+end
+
+puts feelings_road_story
+
+def listen_parade_story
+    #Sixth stop Listen Parade - A friend tells you about their upcoming holidays, show them you are interested in their story.
+    puts "Your best friend Elmo is very excited today, he is going on a holiday to Japan in a few days and tells you how excited he is".colorize(:magenta)
+    puts
+    puts "Should you:".colorize(:magenta)
+    puts
+    puts "1. Ignore Elmo because you're not going to Japan with him".colorize(:magenta)
+    puts "2. Show Elmo you are excited for him and give him a high five".colorize(:magenta)
+    puts
+    player_input
+end
+
+puts listen_parade_story
+
+def no_judgement_story
+    #Seventh stop No Judgement Station - Your friend has a red shirt but you prefer the colour blue, tell them that their shirt looks cool on them.
+    puts "You're going to the fair today with your friend Joey. Joey decides he is wearing his bright red shirt to the fair. Red is Joey's favourite colour!".colorize(:magenta)
+    puts
+    puts "Should you:".colorize(:magenta)
+    puts
+    puts "1. Tell Joey not to wear red, your favourite colour is blue".colorize(:magenta)
+    puts "2. Tell Joey his shirt looks cool on him. Tell Joey you'll be wearing your blue shirt".colorize(:magenta)
+    puts
+    player_input
+end
+
+puts no_judgement_story
+
+def kind_land_story
+    #Final stop Kind Land - Youneek meets all his robot friends and tells them about his journey.
+    puts "You made it to Kind Land! Youneek is so excited, he can now tell all his robot friends all about his journey and the amazing things he learnt along the way".colorize(:magenta)
+end
+
+puts kind_land_story
 
 
 end
