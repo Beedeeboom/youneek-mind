@@ -12,6 +12,7 @@
 
 require "Colorize"
 require "Artii"
+require './Classes/journey_stops' 
 
 system ('clear')
 a = Artii::Base.new 
@@ -19,12 +20,21 @@ a.asciify('YouNeek Mind')
 
 puts a.asciify('YouNeek Mind').colorize(:blue)
 
-def you_neek_mind
+def you_neek_mind   
 
-
+    stop1 = JourneyStops.new("Yay! Let's go on an adventure together! Our first stop is Sad Town!")
+    stop2 = JourneyStops.new("Yay! Let's keep going! Our next stop is Care Station!")
+    stop3 = JourneyStops.new("Yay! Let's keep going! Our next stop is Lonely Village!")
+    stop4 = JourneyStops.new("Yay! Let's keep going! Our next stop is Friend Station!")
+    stop5 = JourneyStops.new("Yay! Let's keep going! Our next stop is Feeling Road!")
+    stop6 = JourneyStops.new("Yay! Let's keep going! Our next stop is Listen Parade!")
+    stop7 = JourneyStops.new("Yay! Let's keep going! Our next stop is No Judgements Station!")
+    stop8 = JourneyStops.new("Yay! Let's keep going! Our next stop is our final destination, Kind Land!")
+    
     puts "H E L L O!   I' M   Y O U N E E K   T H E   R O B O T\n".colorize(:green)
     puts "What's your name?\n".colorize(:green)
     name = gets.chomp
+    system ('clear')
     puts "\nNice to meet you #{name.capitalize}".colorize(:green)
     puts "\nI really need your help #{name.capitalize}, my friends are waiting for me in Kind Land but I have no battery life to travel there\n".colorize(:green)
     puts "\nWould you like to help me?\n".colorize(:blue)
@@ -36,22 +46,10 @@ def you_neek_mind
 
 option_yes_no
 
-    adventure_stops = {
-        :sad_town => "Our first stop is Sad Town!",
-        :care_station => "Our second stop is Care Station!",
-        :lonely_village => "Our third stop is Lonely Village!",
-        :friend_street => "Our fourth stop is Friend Street!",
-        :feelings_road => "Our fifth stop is Feelings Road!",
-        :listen_parade => "Our sixth stop is Listen Parade!",
-        :no_judgements_station => "Our seventh stop is No Judgements Station!",
-        :kind_land => "Our final stop is Kind Land!"
-
-        }
-
     response = gets.chomp
     system('clear')
     if response == "yes"
-        puts "\nYay! Let's go on an adventure together! #{adventure_stops[:sad_town]}\n".colorize(:green)
+        puts "#{puts stop1.new_stop}"
     else
         puts "\nThat's okay we can play another day :)\n".colorize(:green)
         puts "Would you like to keep playing?\n".colorize(:blue)
