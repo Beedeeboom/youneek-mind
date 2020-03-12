@@ -50,20 +50,19 @@ https://github.com/Beedeeboom/youneek-mind.git
 
     - Implemented features:
 
-        Game accepts user input in the form of string, allowing the user to enter their name which is inserted within a method and re-used througout the game to give the user a sense of belonging.
+        - Game accepts user input using "gets" or "gets.chomp" allowing the user to enter their name which is inserted within a method and re-used througout the game to give the user a sense of belonging.
 
-        Game produces printed output in the form of a string and uses loops and conditonal control structures, guiding the user on how to progress through the game.
-        The user input is run through if/else statements, case statements, loop do until the user selects the correct answer to progress to the next level.
+        - Game produces printed output in the form of a String or Integer using Classes and Methods. Loops and conditonal control structures are used to prompt the user to select the correct answer to continue the game, exit, select questions guiding the user on how to progress through the game. The user input is run through if/else statements, case statements, loop do until the user selects the correct answer to progress to the next level.
 
-        Game produces text in various colours using the Colorize Gem to ensure the user can easily differentiate the different sections such as greeting, questions, case scenarios.
+        - Game produces text in various colours using the Colorize Gem to ensure the user can easily differentiate the different sections such as greeting, questions, case scenarios, select options.
 
-        Game allows the user to continue the adventure at every stop or to stop playing.
+        - Game allows the user to continue the adventure at every stop or to stop playing.
 
-        Game is able to handle errors and advise the user when their input is invalid and prompte the user to try again using an acceptable input (example "Invalid input, please select 1 or 2")
+        - Game is able to handle errors and advise the user when their input is invalid and prompts the user to try again using an acceptable input (example "Please select 1 or 2")
 
-        Game uses variables such as "Youneek life bars" which is equal to zero at the start of the game and value is added to this variable as the game progresses.
+        - Game uses variables such as "Youneek life bars" which is equal to "0" at the start of the game and value is added as an Integer to this variable as the game progresses. Youneek's life bars are added using a Class stored in it's own file "youneek_life"
 
-        Game uses the ARTII Gem for the game title "Youneek Mind" displayed when the game is actioned.
+        - Game uses the ARTII Gem for the game title "Youneek Mind" displayed when the game is actioned. ARTII is also used to display the name of each stop (Sad Town, Care Station, etc..)
 
 
 ### R7 - USER INTERACTION & EXPERIENCE:
