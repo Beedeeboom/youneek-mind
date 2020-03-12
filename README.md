@@ -27,9 +27,9 @@ https://github.com/Beedeeboom/youneek-mind.git
 
 * PURPOSE OF THE APPLICATION: 
 
-    Youneek Mind is an application designed to teach autistic children the meaning of empathy, how it affects our interactions with others and how it helps us to adjust to social situations. 
+    Youneek Mind is an application designed to teach children with autism spectrum disorder the meaning of empathy, how it affects our interactions with others and how it helps us to adjust to social situations. 
 
-    The application is like a story book which could be used every night before bed time. In my own experience when my son was around the age of 6 we would read a bedtime story every night and very often he would pick the same book to read over and over again. I noticed after a while that he would remember the story and apply some of the things he learnt from the story into every day life. I believe with a repetition of use, Youneek Mind could have the potential to help the user to remember each case scenario within the game and how he was able to show empathy within that situation and then apply that outcome to everyday life. 
+    The application is like a story book which could be used every night before bed time. In my own experience when my son was around the age of 6 we would read a bedtime story every night and very often he would pick the same book to read over and over again. I noticed after a while that he would remember the story and apply some of the things he learnt from the story into every day life. I believe with a repetition of use, Youneek Mind could have the potential to help the user to remember each case scenario within the game and how they were able to show empathy within that situation and then apply that outcome to everyday life. 
 
 * DEMOGRAPHIC: 
 
@@ -39,7 +39,7 @@ https://github.com/Beedeeboom/youneek-mind.git
 
     Youneek Mind is the story of a little Robot YouNeek who gains life bars when the user answers the right questions. The game starts by a friendly greeting from YouNeek which welcomes the user to the application and describes how the user can help him gain life bars and take him on a journey to Kind Land. The application will present a case scenario to the user at each stop and prompt the user to answer multiple choice questions. If the user answers correctly by selecting a response which shows empathy this will give Youneek 1 life bar and the ability to move to the next stop. Once Youneek has reached his first bar he is able to travel to his first stop to Sad Town, then again a multiple choice question is asked and if the user answers correctly Youneek gains his second life bar and is able to move to the second stop which is Care Station. Once Youneek has reached Care Station, the user is again asked to answer a multiple choice question and if answered correctly, Youneek gains his third bar and is able to move to Lonely Village. The game continues on the same way taking the user to several stops until they reach the final destination in Kind Land where Youneek meets his other robot friends and tells them all about his adventures. The final stop gives the user a badge of awesomeness and congratulates them for helping Youneek on his adventure. The user can select to exit the game or replay.
 
-    Throughout the journey until the user selects the correct answer (“shows empathy”) the application will prompt the user to retry (“Try again, Lucy needs your help”). The user is able to exit the game at anytime by selecting the exit option from the menu.
+    Throughout the journey until the user selects the correct answer (“shows empathy”) the application will prompt the user to retry (“Try again") and will advise the user if they have entered an invalid choice ("Please select 1 or 2"). The user is able to exit the game at anytime by selecting control+c or closing the application. The user is given the option to exit the game at the start of the adventure after they are greeted by Youneek and prompted if they would like to help him. The user is also prompted at the end of the adventure if they either wish to replay or exit the game. 
 
     As there is quite a bit of reading involved children below the ages of 8 would potentially require the help of their parents to read the stories and guide them to select the correct answer. Youneek Mind can also be used as a bed time story which could be replayed every night just like a normal story book. 
  
@@ -50,9 +50,9 @@ https://github.com/Beedeeboom/youneek-mind.git
 
     - Implemented features:
 
-        - Game accepts user input using "gets" or "gets.chomp" allowing the user to enter their name which is inserted within a method and re-used througout the game to give the user a sense of belonging.
+        - Game accepts user input at the start of the game using "gets" or "gets.chomp" allowing the user to enter their name which is inserted within a method and re-used througout the game to give the user a sense of belonging.
 
-        - Game produces printed output in the form of a String or Integer using Classes and Methods. Loops and conditonal control structures are used to prompt the user to select the correct answer to continue the game, exit, select questions guiding the user on how to progress through the game. The user input is run through if/else statements, case statements, loop do until the user selects the correct answer to progress to the next level.
+        - Game produces printed output in the form of a String or Integer using Classes and Methods. Loops and conditonal control structures are used to prompt the user to select the correct answer to continue the game, exit, select questions, guiding the user on how to progress through the game. The user input is run through if/else statements, case statements, loop do until the user selects the correct answer to progress to the next level.
 
         - Game produces text in various colours using the Colorize Gem to ensure the user can easily differentiate the different sections such as greeting, questions, case scenarios, select options.
 
@@ -109,7 +109,7 @@ https://trello.com/b/RUOfqeQb/youneekmind
 
 3. From your Command Line enter "bundle install". This will install all of the gems in the Gemfile to your computer and ensure all gems run successfully when using the application.
 
-4. From your Command Line, you can run the application by typing "ruby YouNeek_Mind.rb"
+4. From your Command Line, within your local folder(where you have downloaded the application files) you can run the application by typing "ruby YouNeek_Mind.rb"
 
 5. You can exit the application at anytime by clicking "Control + C" on your keyboard
 
