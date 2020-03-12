@@ -40,17 +40,14 @@ def youneek_mind
 
     #Game logo
     system ('clear')
-    a = Artii::Base.new 
-    a.asciify('YouNeek Mind')
-
-    puts a.asciify('YouNeek Mind').colorize(:blue)
-
-    font = TTY::Font.new(:starwars)
-    puts font.write("Youneek Mind", letter_spacing: 2)
 
     pastel = Pastel.new
-    puts pastel.yellow(font.write("DOOM"))
-
+    font = TTY::Font.new(:starwars)
+    puts pastel.blue(font.write("Youneek Mind", letter_spacing: 2))
+    
+    a = Artii::Base.new 
+    a.asciify('YouNeek Mind')
+    puts a.asciify('Adventure To Kind Land').colorize(:magenta)
 
     #Welcomes user to the game
     going_on_a_journey

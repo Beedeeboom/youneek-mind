@@ -1,4 +1,5 @@
 require 'Colorize'
+require 'Pastel'
 
 def going_on_a_journey
     #Introduction to game
@@ -12,7 +13,7 @@ def going_on_a_journey
     #ask the user if they want to keep playing or not
     
     loop do
-        puts "Select " + " yes ".colorize(:black).colorize(:background => :white) + " or " + " no ".colorize(:black).colorize(:background => :white)
+        puts "Type " + " yes ".colorize(:black).colorize(:background => :yellow) + " or " + " no ".colorize(:black).colorize(:background => :magenta)
         response = gets.chomp
         system ('clear')
         if response == "yes"
@@ -20,7 +21,7 @@ def going_on_a_journey
             break
         elsif response == "no" 
             puts "Are you sure? I need new life bars to continue the game?\n".colorize(:green)
-            puts "Type " + " yes ".colorize(:black).colorize(:background => :white) + " to stop playing or " + " continue ".colorize(:black).colorize(:background => :white) + " to keep playing\n".colorize(:white)
+            puts "Type " + " yes ".colorize(:black).colorize(:background => :yellow) + " to stop playing or " + " continue ".colorize(:black).colorize(:background => :magenta) + " to keep playing\n".colorize(:white)
             response2 = gets.chomp
             if response2 == "continue"
                 system ('clear')
@@ -35,9 +36,10 @@ def going_on_a_journey
             puts "Please select yes or no".colorize(:yellow)
         end
     end
-    stop1 = JourneyStops.new("Yay! Let's go on an adventure together! Our first stop is Sad Town!")
+    stop1 = JourneyStops.new("Yay! Let's go on an adventure together! Our first stop is Sad Town!\n" +
+    "\nRead my little stories and pick option 1 or 2. The correct option will give me one life bar at each stop.\n")
     puts stop1.new_stop
 
-    "Read my little stories and pick option 1 or 2. The correct option will give me one life bar at each stop.\n".colorize(:green)
+    
 
 end

@@ -13,6 +13,6 @@ def no_judgements_story
     Should you:\n
     1. Tell Joey his shirt looks cool on him. Tell Joey you'll be wearing your blue shirt?\n
     2. Tell Joey not to wear red, your favourite colour is blue?\n".colorize(:magenta)
-    puts "Select 1 or 2\n".colorize(:yellow)
+    puts "Type " + " yes ".colorize(:black).colorize(:background => :yellow) + " or " + " no ".colorize(:black).colorize(:background => :magenta)
     player_input
 end
