@@ -16,7 +16,7 @@ def continue_or_exit
             puts "That's okay we can play another day\n".colorize(:green)
             puts "Press any key to exit game or type continue to help Youneek gain a new life bar\n".colorize(:yellow)
             exit = gets
-            break
+            
             else response2 == "continue"
             break
             end 
