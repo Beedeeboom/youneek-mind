@@ -110,7 +110,7 @@ youneek_mind
 loop do
     puts "Would you like to start the adventure again?".colorize(:blue)
     puts
-    puts "Select " + " yes ".colorize(:black).colorize(:background => :white) + " or " + " no ".colorize(:black).colorize(:background => :white)
+    puts "Type " + " yes ".colorize(:black).colorize(:background => :yellow) + " or " + " no ".colorize(:black).colorize(:background => :magenta) + " to keep playing\n".colorize(:white)
     response = gets.chomp
     if response == "yes"
         puts youneek_mind
