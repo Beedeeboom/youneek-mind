@@ -17,13 +17,5 @@ class JourneyStops
 end
 
 
-stop1 = JourneyStops.new("Yay! Let's go on an adventure together! Our first stop is Sad Town!")
-stop2 = JourneyStops.new("Care Station!")
-stop3 = JourneyStops.new("Lonely Village!")
-stop4 = JourneyStops.new("Friend Station!")
-stop5 = JourneyStops.new("Feeling Road!")
-stop6 = JourneyStops.new("Listen Parade!")
-stop7 = JourneyStops.new("No Judgements Station!")
-stop8 = JourneyStops.new("Kind Land, our final destination!")
 
 

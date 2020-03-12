@@ -11,8 +11,9 @@ def friend_street_story
     puts "  Should you:".colorize(:magenta)
     puts
     puts "  1. Keep playing with your friends".colorize(:magenta)
+    puts
     puts "  2. Ask Shelby if she would like to be your friend and ask if you can play with her".colorize(:magenta)
     puts
     puts "Select 1 or 2".colorize(:yellow)
-    player_input
+    player_input2
 end

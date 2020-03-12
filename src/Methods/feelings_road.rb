@@ -11,8 +11,9 @@ def feelings_road_story
     puts
     puts "  Do you think:".colorize(:magenta)
     puts
-    puts "  1. Nelly is silly".colorize(:magenta)
-    puts "  2. Nelly is upset because she can't read the big words. You tell Nelly not to worry, you can't read all the words either".colorize(:magenta)
+    puts "  1. Nelly is upset because she can't read the big words. You tell Nelly not to worry, you can't read all the words either".colorize(:magenta)
+    puts
+    puts "  2. Nelly is silly".colorize(:magenta)
     puts
     puts "Select 1 or 2".colorize(:yellow)
     player_input

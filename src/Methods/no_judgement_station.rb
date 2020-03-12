@@ -12,8 +12,9 @@ def no_judgement_story
     puts
     puts "  Should you:".colorize(:magenta)
     puts
-    puts "  1. Tell Joey not to wear red, your favourite colour is blue".colorize(:magenta)
-    puts "  2. Tell Joey his shirt looks cool on him. Tell Joey you'll be wearing your blue shirt".colorize(:magenta)
+    puts "  1. Tell Joey his shirt looks cool on him. Tell Joey you'll be wearing your blue shirt".colorize(:magenta)
+    puts
+    puts "  2. Tell Joey not to wear red, your favourite colour is blue".colorize(:magenta)
     puts
     puts "Select 1 or 2".colorize(:yellow)
     player_input

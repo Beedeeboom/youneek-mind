@@ -15,5 +15,5 @@ def listen_parade_story
     puts "  2. Show Elmo you are excited for him and give him a high five".colorize(:magenta)
     puts
     puts "Select 1 or 2".colorize(:yellow)
-    player_input
+    player_input2
 end
