@@ -16,3 +16,7 @@ gem "artii", "~> 2.1"
 gem "ascii_heart", "~> 0.0.1"
 
 gem "asciiart", "~> 0.0.9"
+
+gem "tty-font", "~> 0.5.0"
+
+gem "pastel", "~> 0.7.3"

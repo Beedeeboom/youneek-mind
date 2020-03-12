@@ -109,7 +109,7 @@ https://trello.com/b/RUOfqeQb/youneekmind
 
 3. From your Command Line enter "bundle install". This will install all of the gems in the Gemfile to your computer and ensure all gems run successfully when using the application.
 
-4. From your Command Line, within your local folder(where you have downloaded the application files) you can run the application by typing "ruby YouNeek_Mind.rb"
+4. From your Command Line, within your local folder(where you have downloaded the application files) you can run the application by typing "ruby youneek_mind.rb"
 
 5. You can exit the application at anytime by clicking "Control + C" on your keyboard
 
@@ -124,6 +124,14 @@ https://trello.com/b/RUOfqeQb/youneekmind
         2.  Artii - gem "artii", "~> 2.1"
 
         Artii is used in the application for the display of game name when the application is opened
+
+        3. TTY-font - gem "tty-font", "~> 0.5.0"
+
+        TTY-font is used in addition to Artii to vary the style of the headers
+
+        4. Pastel - gem "pastel", "~> 0.7.3"
+
+        Pastel is required for the use of colour with the TTY-font. It is also used emphasize strings with dynamic background colours or underlines.
 
 * REMOTE GIT REPOSITORY:
 

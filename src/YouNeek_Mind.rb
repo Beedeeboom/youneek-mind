@@ -16,6 +16,8 @@
 #Gems
 require "Colorize"
 require "Artii"
+require "tty-font"
+require "pastel"
 
 #Classes
 require './Classes/journey_stops' 
@@ -42,6 +44,13 @@ def youneek_mind
     a.asciify('YouNeek Mind')
 
     puts a.asciify('YouNeek Mind').colorize(:blue)
+
+    font = TTY::Font.new(:starwars)
+    puts font.write("Youneek Mind", letter_spacing: 2)
+
+    pastel = Pastel.new
+    puts pastel.yellow(font.write("DOOM"))
+
 
     #Welcomes user to the game
     going_on_a_journey
