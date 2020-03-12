@@ -7,15 +7,10 @@ def lonely_village_story
     a = Artii::Base.new 
     a.asciify('Lonely Village')
     puts a.asciify('Lonely Village').colorize(:magenta)
-    puts
-    puts "In class you see your class mate Tom sitting by himself, Tom looks lonely".colorize(:magenta)
-    puts
-    puts "  Should you:".colorize(:magenta)
-    puts
-    puts "  1. Stay at your desk and keep reading your book".colorize(:magenta)
-    puts
-    puts "  2. Ask Tom if you can sit with him and read your book together".colorize(:magenta)
-    puts
-    puts "Select 1 or 2".colorize(:yellow)
+    puts "\nIn class you see your class mate Tom sitting by himself, Tom looks lonely\n
+    Should you:\n
+    1. Stay at your desk and keep reading your book?\n
+    2. Ask Tom if you can sit with him and read your book together?\n".colorize(:magenta)
+    puts "Select 1 or 2\n".colorize(:yellow)
     player_input2
 end
