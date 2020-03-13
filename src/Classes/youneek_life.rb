@@ -9,7 +9,5 @@ class YouneekLife
 
 end
 
-youneek_life = YouneekLife.new
 
-p youneek_life.add(0,1)
 

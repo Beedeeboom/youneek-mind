@@ -11,6 +11,6 @@ def sad_town_story
     Should you:\n
     1. Ignore Lucy and keep playing with your friends?\n
     2. Go to Lucy and ask her if she is okay. Give Lucy a pat on the shoulder?\n".colorize(:magenta)
-    puts "Type " + " yes ".colorize(:black).colorize(:background => :yellow) + " or " + " no ".colorize(:black).colorize(:background => :magenta)
+    puts "Type " + " 1 ".colorize(:black).colorize(:background => :yellow) + " or " + " 2 ".colorize(:black).colorize(:background => :magenta)
     player_input2
 end

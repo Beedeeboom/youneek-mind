@@ -10,6 +10,6 @@ def friend_street_story
     Should you:\n
     1. Keep playing with your friends?\n
     2. Ask Shelby if she would like to be your friend and ask if you can play with her?\n".colorize(:magenta)
-    puts "Type " + " yes ".colorize(:black).colorize(:background => :yellow) + " or " + " no ".colorize(:black).colorize(:background => :magenta)
+    puts "Type " + " 1 ".colorize(:black).colorize(:background => :yellow) + " or " + " 2 ".colorize(:black).colorize(:background => :magenta)
     player_input2
 end

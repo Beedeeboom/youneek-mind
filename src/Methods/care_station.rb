@@ -10,6 +10,6 @@ def care_station_story
     Should you:\n
     1. Help Elmo to get back up and ask him if he is okay?\n
     2. Keep playing with your ball?\n".colorize(:magenta)
-    puts "Type " + " yes ".colorize(:black).colorize(:background => :yellow) + " or " + " no ".colorize(:black).colorize(:background => :magenta)
+    puts "Type " + " 1 ".colorize(:black).colorize(:background => :yellow) + " or " + " 2 ".colorize(:black).colorize(:background => :magenta)
     player_input
 end

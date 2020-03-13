@@ -11,6 +11,6 @@ def listen_parade_story
     Should you:\n
     1. Ignore Sam because you're not going to Japan with him?\n
     2. Show interest in Sam's story, tell him you are excited for him and give Sam a high five?\n".colorize(:magenta)
-    puts "Type " + " yes ".colorize(:black).colorize(:background => :yellow) + " or " + " no ".colorize(:black).colorize(:background => :magenta)
+    puts "Type " + " 1 ".colorize(:black).colorize(:background => :yellow) + " or " + " 2 ".colorize(:black).colorize(:background => :magenta)
     player_input2
 end

@@ -64,6 +64,8 @@ https://github.com/Beedeeboom/youneek-mind.git
 
         - Game uses the ARTII Gem for the game title "Youneek Mind" displayed when the game is actioned. ARTII is also used to display the name of each stop (Sad Town, Care Station, etc..)
 
+        - Tests are run using the Gem Test-Unit in the Test directory
+
 
 ### R7 - USER INTERACTION & EXPERIENCE:
 
@@ -105,13 +107,13 @@ https://trello.com/b/RUOfqeQb/youneekmind
 
 1. [Click here to install Ruby](https://www.ruby-lang.org/en/documentation/installation/) - Please ensure you install the 2.7.0 version or over.
 
-2. From your Command Line enter the following remote repository into your local repository - "git@github.com:Beedeeboom/youneek-mind.git" - See below link to Git Cheat Sheet for help. 
+2. From your Command Line enter the following remote repository into your local repository - "git@github.com:Beedeeboom/youneek-mind.git" - See below link to Git Cheat Sheet for help with git commands. 
 
 3. From your Command Line enter "bundle install". This will install all of the gems in the Gemfile to your computer and ensure all gems run successfully when using the application.
 
-4. From your Command Line, within your local folder(where you have downloaded the application files) you can run the application by typing "ruby youneek_mind.rb"
+4. From your Command Line, within your local folder(where you have downloaded the application files) you can run the application by typing "ruby youneek_mind.rb".
 
-5. You can exit the application at anytime by clicking "Control + C" on your keyboard
+5. You can exit the application at anytime by clicking "Control + C" on your keyboard or when prompted within the game if you would like to "exit" or "continue" to play.
 
 * LIST OF DEPENDENCIES:
         
@@ -132,6 +134,10 @@ https://trello.com/b/RUOfqeQb/youneekmind
         4. Pastel - gem "pastel", "~> 0.7.3"
 
         Pastel is required for the use of colour with the TTY-font. It is also used emphasize strings with dynamic background colours or underlines.
+
+        5. Test-Unit - gem "test-unit", "~> 3.3"
+
+        Test-Unit is used to ensure code runs without errors.
 
 * REMOTE GIT REPOSITORY:
 

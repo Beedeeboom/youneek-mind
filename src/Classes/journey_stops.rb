@@ -1,4 +1,4 @@
-require "Colorize"
+require "colorize"
 
 class JourneyStops
 
@@ -11,7 +11,7 @@ class JourneyStops
 
     def new_stop     
         # puts "#{@stop}"
-        puts @stop.colorize(:green)  
+        return @stop.colorize(:green)  
     end
 
 end

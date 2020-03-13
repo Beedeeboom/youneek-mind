@@ -11,6 +11,6 @@ def lonely_village_story
     Should you:\n
     1. Stay at your desk and keep reading your book?\n
     2. Ask Tom if you can sit with him and read your book together?\n".colorize(:magenta)
-    puts "Type " + " yes ".colorize(:black).colorize(:background => :yellow) + " or " + " no ".colorize(:black).colorize(:background => :magenta)
+    puts "Type " + " 1 ".colorize(:black).colorize(:background => :yellow) + " or " + " 2 ".colorize(:black).colorize(:background => :magenta)
     player_input2
 end

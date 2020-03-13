@@ -10,6 +10,6 @@ def feelings_road_story
     Do you think:\n
     1. Nelly is upset because she can't read the big words. You tell Nelly not to worry, you can't read all the words either?\n
     2. Nelly is silly?\n".colorize(:magenta)
-    puts "Type " + " yes ".colorize(:black).colorize(:background => :yellow) + " or " + " no ".colorize(:black).colorize(:background => :magenta)
+    puts "Type " + " 1 ".colorize(:black).colorize(:background => :yellow) + " or " + " 2 ".colorize(:black).colorize(:background => :magenta)
     player_input
 end
