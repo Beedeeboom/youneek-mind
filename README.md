@@ -39,7 +39,7 @@ GitHub - Beedeeboom/youneek-mind.git
 
 * HOW THE APPLICATION IS USED:
 
-    Youneek Mind is the story of a little Robot YouNeek who gains life bars when the user answers the right questions. The game starts by a friendly greeting from YouNeek which welcomes the user to the application and describes how the user can help him gain life bars and take him on a journey to Kind Land. The application will present a case scenario to the user at each stop and prompt the user to answer multiple choice questions. If the user answers correctly by selecting a response which shows empathy this will give Youneek 1 life bar and the ability to move to the next stop. Once Youneek has reached his first bar he is able to travel to his first stop to Sad Town, then again a multiple choice question is asked and if the user answers correctly Youneek gains his second life bar and is able to move to the second stop which is Care Station. Once Youneek has reached Care Station, the user is again asked to answer a multiple choice question and if answered correctly, Youneek gains his third bar and is able to move to Lonely Village. The game continues on the same way taking the user to several stops until they reach the final destination in Kind Land where Youneek meets his other robot friends and tells them all about his adventures. The final stop gives the user a badge of awesomeness and congratulates them for helping Youneek on his adventure. The user can select to exit the game or replay.
+    Youneek Mind is the story of a little Robot YouNeek who gains life bars when the user answers the right questions. The game starts by a friendly greeting from YouNeek which welcomes the user to the application and describes how the user can help him gain life bars and take him on a journey to Kind Land. The application will present a case scenario to the user at each stop and prompt the user to answer multiple choice questions. If the user answers correctly by selecting a response which shows empathy this will give Youneek 1 life bar and the ability to move to the next stop. Once Youneek has reached his first bar he is able to travel to his first stop to Sad Town, then again a multiple choice question is asked and if the user answers correctly Youneek gains his second life bar and is able to move to the second stop which is Care Station. Once Youneek has reached Care Station, the user is again asked to answer a multiple choice question and if answered correctly, Youneek gains his third bar and is able to move to Lonely Village. The game continues on the same way taking the user to several stops until they reach the final destination in Kind Land where Youneek meets his other robot friends and tells them all about his adventures. The final stop gives the user a badge of Empathy and congratulates them for helping Youneek on his adventure. The user can select to exit the game or replay.
 
     Throughout the journey until the user selects the correct answer (“shows empathy”) the application will prompt the user to retry (“Try again") and will advise the user if they have entered an invalid choice ("Please select 1 or 2"). The user is able to exit the game at anytime by selecting control+c or closing the application. The user is given the option to exit the game at the start of the adventure after they are greeted by Youneek and prompted if they would like to help him. The user is also prompted at the end of the adventure if they either wish to replay or exit the game. 
 
@@ -80,9 +80,10 @@ GitHub - Beedeeboom/youneek-mind.git
 
 ### R8 - CONTROL FLOW OF THE APPLICATION:
 
-        Develop a diagram which describes the control flow of your application. Your diagram must:
-    - show the workflow/logic and/or integration of the features in your application for each feature.
-    - utilise a recognised format or set of conventions for a control flow diagram, such as UML.
+    
+A Flow Chart was developed to describe the control flow of the application.
+
+![Flow Chart](./docs/Youneek_Mind_Flow_Chart.jpg)
 
 ### R9 - IMPLEMENTATION PLAN:
 
@@ -100,6 +101,8 @@ GitHub - Beedeeboom/youneek-mind.git
 https://trello.com/b/RUOfqeQb/youneekmind
 
 Image file also available in doc directory
+
+![Trello Board](./docs/Youneek_Mind_Trello_Board.png)
 
 
 ### R10 - HOW TO INSTALL & USE THE APPLICATION:
@@ -148,5 +151,5 @@ Image file also available in doc directory
 
 * SYSTEM/HARDWARE REQUIREMENTS:
 
-    Macbook Pro - MacOS Catalina version 10.15.3 or over
+    Apple Computer Macbook or iMac version 10.15.3 or over.
     
