@@ -3,9 +3,9 @@ Created by Stephanie Duffieux, March 2020
 
 ### R3 - REFERENCED SOURCES
 
-* [Research from Prof Lenroot](https://www.neura.edu.au/develop-empathy-study-autism-spectrum-disorders/#:~:text=This%20ability%20to%20recognise%20what,children%20with%20autism%20spectrum%20disorders.)
+* [Research from Prof Lenroot](https://www.neura.edu.au/develop-empathy-study-autism-spectrum-disorders)
 
-https://www.neura.edu.au/develop-empathy-study-autism-spectrum-disorders/#:~:text=This%20ability%20to%20recognise%20what,children%20with%20autism%20spectrum%20disorders.
+https://www.neura.edu.au/develop-empathy-study-autism-spectrum-disorders
 
 * [Implementation Plan - Trello.com](https://trello.com)
 
@@ -19,6 +19,8 @@ https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
 * [GitHub repository](https://github.com/Beedeeboom/youneek-mind.git)
 
 https://github.com/Beedeeboom/youneek-mind.git
+
+GitHub - Beedeeboom/youneek-mind.git
 
 ## SOFTWARE DEVELOPMENT PLAN
 
@@ -97,6 +99,8 @@ https://github.com/Beedeeboom/youneek-mind.git
 
 https://trello.com/b/RUOfqeQb/youneekmind
 
+Image file also available in doc directory
+
 
 ### R10 - HOW TO INSTALL & USE THE APPLICATION:
 
@@ -109,11 +113,10 @@ https://trello.com/b/RUOfqeQb/youneekmind
 
 2. From your Command Line enter the following remote repository into your local repository - "git@github.com:Beedeeboom/youneek-mind.git" - See below link to Git Cheat Sheet for help with git commands. 
 
-3. From your Command Line enter "bundle install". This will install all of the gems in the Gemfile to your computer and ensure all gems run successfully when using the application.
+4. From your Command Line enter "./Youneek.sh". This will run the application and bundle install (Bundle install will ensure all of the gems in the Gemfile run successfully when using the application.
 
-4. From your Command Line, within your local folder(where you have downloaded the application files) you can run the application by typing "ruby youneek_mind.rb".
 
-5. You can exit the application at anytime by clicking "Control + C" on your keyboard or when prompted within the game if you would like to "exit" or "continue" to play.
+6. You can exit the application at anytime by clicking "Control + C" on your keyboard or when prompted within the game if you would like to "exit" or "continue" to play.
 
 * LIST OF DEPENDENCIES:
         
@@ -123,7 +126,7 @@ https://trello.com/b/RUOfqeQb/youneekmind
 
         Colorize is used in the application to enable the user to see the text in different colours and easily differentiate the sections of the game (example, greeting, questions, case scenarios with multiple choice answers)
 
-        2.  Artii - gem "artii", "~> 2.1"
+        2. Artii - gem "artii", "~> 2.1"
 
         Artii is used in the application for the display of game name when the application is opened
 
